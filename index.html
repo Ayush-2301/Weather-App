@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b2b7820d8a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body
+    class="inital flex justify-center items-center h-screen w-full font-textFont"
+  >
+    <div
+      class="main-container container mx-auto md:px-10 px-5 max-w-md w-full flex flex-col justify-center items-center rounded-lg backdrop-blur-xl bg-white/30 backdrop-brightness-105 drop-shadow-lg"
+    >
+      <div
+        class="searchBar w-full mx-auto mt-6 flex justify-center items-center"
+      >
+        <i class="fa-solid fa-location-dot fa-2xl text-textcolor"></i>
+        <input
+          type="search"
+          placeholder="Search"
+          class="search h-10 m-3 mr-1 w-full p-3 backdrop-blur-xl bg-white/30 placeholder:text-textcolor placeholder:text-xl placeholder:font-medium rounded-l-full rounded-r-full text-textcolor text-xl font-medium"
+        />
+        <div
+          class="search-btn bg-white/30 backdrop-blur-xl rounded-full w-fit h-fit p-2 rounded-t-full rounded-b-full"
+        >
+          <button
+            type="submit"
+            class="search-button fa-solid fa-magnifying-glass fa-xl text-textcolor"
+          ></button>
+        </div>
+      </div>
+      <div
+        class="weather-image mt-5 text-textcolor font-semibold flex flex-col justify-center items-center"
+      >
+        <!-- later work haze -->
+        <!-- <div class="haze" icon="supermoon" data-label="Cool!">
+          <span class="cloud"></span>
+          <span class="cloud"></span>
+        </div> -->
+        <!-- <span class="moon"></span> -->
+        <!-- <span class="meteor"></span> -->
+      </div>
+      <div
+        class="weather-Data m-2 px-1 relative text-6xl font-bold text-textcolor"
+      ></div>
+      <div
+        class="weather-Discription capitalize mb-1 relative text-textcolor text-lg font-medium"
+      ></div>
+      <div class="more-info w-full flex flex-row justify-between">
+        <div class="humidity mr-auto flex flex-row"></div>
+        <div class="wind ml-auto flex flex-row"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
